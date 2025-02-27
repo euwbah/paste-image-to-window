@@ -1,0 +1,10 @@
+[package]
+name = "paste-image-to-window"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clipboard-rs = "0.2.*"
+winapi = { version = "0.3", features = ["winuser"] }
+winreg = "0.55"
+show-image = "0.14.*"
